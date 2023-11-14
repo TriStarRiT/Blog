@@ -9,10 +9,12 @@
 <body>
     <nav class="main">
         <header>
-            <nav class="logo_nav">
-                <a class="header_text" href="#">Home</a>
-            </nav>
-            <button class="change_language_but">Eng</button>   
+            <nav class="logo_cont">
+                <nav class="logo_nav">
+                    <a class="header_text" href="#">Home</a>
+                </nav>
+                <button class="change_language_but">Ru</button>  
+            </nav> 
                 <!--
                     <button>Eng</button>
                 -->
@@ -22,21 +24,42 @@
                 <a class="header_text" href="#">Contact</a>
             </nav>
         </header>
-        <nav class="wellcome">
-            <container>
-                <h1 class="h1_main">Личный блог<br> TriStarRiT</h1>
-                <h3 class="h1_main1">Обо всём по-немногу</h3>
-                <p class="comment">*cайт создан как учебный</p>
-            </container>
-            <img class="big_pic" src="pic/face.png">
+        <nav class="wel_con">
+            <nav class="wellcome">
+                <container>
+                    <h1 class="h1_main">Личный блог<br> TriStarRiT</h1>
+                    <h3 class="h1_main1">Обо всём по-немногу</h3>
+                    <p class="comment">*cайт создан как учебный</p>
+                </container>
+                <img class="big_pic" src="pic/face.png">
+            </nav>
         </nav>
         <hr class="line">
-        <nav class="stat">
-            <nav>
-                <h2 class="h1_stat">Заголовок</h2>
-                <p class="h1_stat">Здесь в будущем будет краткое описание статьи</p>
+        <nav class="filters_con">
+            <nav class="filters">
+                <nav class="filt_con">
+                    <input class="filt_input">
+                    <button class="find_but">Поиск</button>
+                </nav>
+                <nav class="filt_con">
+                    <p class="header_text">Фильтры</p>
+                    <select class="selector">
+                        <option class="option">Сначала популярные</option>
+                        <option class="option">Сначала непопулярные</option>
+                        <option class="option">Cначала новые</option>
+                        <option class="option">Сначала старые</option>
+                    </select>
+                </nav>
             </nav>
-            <img class="stat_pic" src="pic/face.png">
+        </nav>
+        <nav class="stat_con">
+            <nav class="stat">
+                <nav>
+                    <h2 class="h1_stat">Заголовок</h2>
+                    <p class="h1_stat">Здесь в будущем будет краткое описание статьи</p>
+                </nav>
+                <img class="stat_pic" src="pic/face.png">
+            </nav>
         </nav>
         <hr class="line">
         <footer>
@@ -44,6 +67,6 @@
             <a class="comment" href="#">Contact</a>
             <a class="comment" href="#">About me</a>
         </footer>
-    </nav>
+    </hr>
 </body>
 </html>
